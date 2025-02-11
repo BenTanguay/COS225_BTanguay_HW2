@@ -18,8 +18,8 @@ public class Grove {
     }
 
     public Tree removeTree(int plot){
-        Tree tree = grove.get(plot);
-        grove.remove(plot);
+        Tree tree = grove.get(plot-1);
+        grove.remove(plot-1);
         return tree;
     }
 
